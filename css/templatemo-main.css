@@ -427,6 +427,20 @@ section {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 30px 20px;
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+
 }
 
 
